@@ -1,0 +1,14 @@
+#!/bin/bash
+
+firstname=leon
+lastname=robinson
+echo $USER
+
+echo "The name I have is ${firstname} ${lastname}"
+
+echo "Hope you are well"
+
+ocount=$(grep o /etc/passwd | wc -l)
+
+echo "There are ${ocount} lines with the letter o in passwd"
+
