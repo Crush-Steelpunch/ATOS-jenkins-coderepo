@@ -25,10 +25,10 @@ Finish the set up using the browser.
 
 # JDK 17 with Maven 3.8.5
 
-Install jdk 17
+Install jdk 17 and jre 8
 
 ```
-sudo apt install -y openjdk-17-jdk
+sudo apt install -y openjdk-17-jdk openjdk-8-jre
 ```
 
 
