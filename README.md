@@ -39,3 +39,7 @@ Set a name for the installation
 Untick the box **Install Automatically**
 
 Set `MAVE_HOME` directory to `/usr/share/maven`
+
+JDK 17
+
+`sudo apt install -y openjdk-17-jdk`
