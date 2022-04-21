@@ -14,6 +14,6 @@ Open SSH in Browser
 ```bash
 nano installjenkins
 chmod +x installjenkins
-./installjenkins
+sudo ./installjenkins
 ```
 
