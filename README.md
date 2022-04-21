@@ -24,7 +24,7 @@ Finish the set up using the browser.
 
 # Maven and Jenkins
 
-Installing maven and the jdk on the cli so you can use the maven jenkins plugin
+Install maven and the jdk on the ssh cli.
 
 ```bash
 sudo apt install -y maven default-jdk
