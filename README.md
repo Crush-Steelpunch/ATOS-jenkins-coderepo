@@ -3,6 +3,7 @@ Example Code Repo for Atos delivery
 
 Launch instance
 - Compute Engine
+  - set name to: yourinitials-jenkins
   - Set Region
   - type: e2-small
   - Network tags: jenkins
