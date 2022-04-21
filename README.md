@@ -32,7 +32,7 @@ sudo apt install -y openjdk-17-jdk openjdk-8-jre
 ```
 
 
-Overwrite the jenkins service file to use jdk 8
+Overwrite the jenkins service file to use jre8
 
 ```
 sudo curl -L -o /etc/systemd/system/jenkins.service https://github.com/Crush-Steelpunch/ATOS-jenkins-coderepo/raw/main/jenkins.service
