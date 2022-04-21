@@ -27,3 +27,6 @@ Installing maven and the jdk on the cli so you can use the maven jenkins plugin
 ```bash
 sudo apt install -y maven default-jdk
 ```
+
+
+The `MAVE_HOME` directory willneed to be set to `/usr/share/maven`
