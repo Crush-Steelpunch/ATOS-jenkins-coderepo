@@ -18,7 +18,7 @@ sudo ./installjenkins
 ```
 
 
-Browse to (http://<your-external-ip>:8080)
+Browse to [http://<your-external-ip>:8080]
 
 Finish the set up using the browser.
 
