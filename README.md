@@ -22,11 +22,20 @@ Browse to `http://<your-external-ip>:8080`
 
 Finish the set up using the browser.
 
+# Maven and Jenkins
+
 Installing maven and the jdk on the cli so you can use the maven jenkins plugin
 
 ```bash
 sudo apt install -y maven default-jdk
 ```
 
+In the main dashboard navigate to **Manage Jenkins** > **Global Tool Configuration**
 
-The `MAVE_HOME` directory will need to be set to `/usr/share/maven`
+Scroll down to Maven Installations and click the button
+
+Set a name for the installation
+
+Untick the box **Install Automatically**
+
+Set `MAVE_HOME` directory to `/usr/share/maven`
