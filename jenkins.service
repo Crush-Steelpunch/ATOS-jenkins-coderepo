@@ -1,0 +1,9 @@
+[Unit]
+Description=Jenkins Server
+
+[Service]
+User=jenkins
+WorkingDirectory=/home/jenkins
+ExecStart=/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -jar /home/jenkins/jenkins.war
+[Install]
+WantedBy=multi-user.target
