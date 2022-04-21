@@ -22,23 +22,6 @@ Browse to `http://<your-external-ip>:8080`
 
 Finish the set up using the browser.
 
-# Maven and Jenkins
-
-Install maven and the jdk on the ssh cli.
-
-```bash
-sudo apt install -y maven default-jdk
-```
-
-In the main dashboard navigate to **Manage Jenkins** > **Global Tool Configuration**
-
-Scroll down to Maven Installations and click the button
-
-Set a name for the installation
-
-Untick the box **Install Automatically**
-
-Set `MAVE_HOME` directory to `/usr/share/maven`
 
 # JDK 17 with Maven 3.8.5
 
@@ -71,4 +54,4 @@ Set a name for the installation
 
 Untick the box **Install Automatically**
 
-Set `MAVE_HOME` directory to `/opt/maven`
+Set `MAVEN_HOME` directory to `/opt/maven`
