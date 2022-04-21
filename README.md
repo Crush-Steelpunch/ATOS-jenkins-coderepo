@@ -29,4 +29,4 @@ sudo apt install -y maven default-jdk
 ```
 
 
-The `MAVE_HOME` directory willneed to be set to `/usr/share/maven`
+The `MAVE_HOME` directory will need to be set to `/usr/share/maven`
